@@ -1,2 +1,3 @@
-This is my data...
-Hello from patika.dev :)
+Java-102 | PATİKA.dev
+123456
+7890
