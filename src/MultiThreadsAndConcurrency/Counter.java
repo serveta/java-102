@@ -1,18 +1,16 @@
-package Thread;
+package MultiThreadsAndConcurrency;
 
-public class Counter2 implements Runnable {
+public class Counter extends Thread {
     String name;
 
-    public Counter2(String name) {
+    public Counter(String name) {
         this.name = name;
     }
 
     @Override
     public void run() {
-        System.out.println(this.name + " started!");
         for (int i = 0; i < 50; i++) {
             System.out.println(this.name + ": " + i);
         }
-        System.out.println(this.name + " finish!");
     }
 }
